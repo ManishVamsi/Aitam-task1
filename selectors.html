@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div>p{
+            color: red;
+        }
+        p:hover{
+            color:green;
+            background-color: yellow;
+        }
+        a:visited{
+            color:red
+        }
+        input[type="text"]{
+            padding: 10px 20px;
+            margin: 0;
+            border-radius: 10px;
+            border: 1px solid black;
+        }
+        li:nth-child(odd){
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>direct child</p>
+        <div>
+            <p>indirect child</p>
+        </div>
+    </div>
+    <a href="#" target="_blank">text link</a>
+    <p>
+        This paragraph contains a link:<a href="#" target="_blank">This link will turn red while you click on it.</a> 
+        The paragraph will get a gray background while you click on it or the link.</p>
+        <!--Attribute /imput selector-->
+        <form >
+            <input type="text" placeholder="enter name" id="">
+        </form>
+        <!--nth child-->
+        <ul>
+            <li>item1</li>
+            <li>item2</li>
+            <li>item3</li>
+        </ul>
+</body>
+</html>
